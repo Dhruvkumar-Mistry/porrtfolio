@@ -54,6 +54,9 @@ const ContactForm = () => {
           message: "",
         });
 
+        // Optional redirect
+        // window.location.href = "/thank-you";
+
         setTimeout(() => setSubmitted(false), 5000);
       } else {
         setError("Failed to submit form. Please try again.");
@@ -65,20 +68,27 @@ const ContactForm = () => {
   };
 
   return (
-    <div  className="flex w-11/12 mx-auto justify-center p-[1px] rounded-3xl border-b border-r border-transparent hover:border-primary hover:dark:border-darkprimary bg-clip-border transition-all duration-300 hover:-translate-y-1">
-      <div className="h-full w-full bg-[#E2E2E24D] dark:bg-[#191B1A4D] rounded-3xl p-12 flex flex-col space-y-8">
+    <div className="flex w-11/12 mx-auto justify-center p-[1px] lg:rounded-3xl border-b border-r border-transparent lg:hover:border-primary lg:hover:dark:border-darkprimary bg-clip-border transition-all duration-300 lg:hover:-translate-y-1">
+      <div
+        className="h-full w-full bg-[#E2E2E24D] dark:bg-[#191B1A4D] rounded-3xl 
+      p-8 lg:p-12 flex flex-col space-y-4 lg:space-y-8"
+      >
         <div className="flex flex-col space-y-2">
           <h1 className="text-3xl font-bold text-primary dark:text-darkprimary">
-            Contact Our Team
+            Contact Dhruv Mistry
           </h1>
           <p className="font-medium text-secondary dark:text-darksecondary">
-            We'd love to hear from you. Fill out the form and we'll be in touch shortly.
+            Have a project in mind, a question, or just want to connect? <br />
+            Drop your message below and I’ll get back to you as soon as
+            possible.
           </p>
         </div>
 
         {submitted && (
           <div className="text-green-500 font-medium">
-            Your message has been sent successfully!
+            Thank you for reaching out! Your message has been sent successfully.{" "}
+            <br />
+            I’ll get back to you as soon as possible — Dhruv Mistry.
           </div>
         )}
         {error && <div className="text-red-500 font-medium">{error}</div>}
@@ -135,10 +145,12 @@ const ContactForm = () => {
               className="p-3 w-full rounded-lg bg-[#E2E2E299] dark:bg-[#0E0D0F] text-black dark:text-white"
               required
             >
-              <option value="">Select Subject</option>
-              <option value="Support">Support</option>
-              <option value="Business Inquiry">Business Inquiry</option>
-              <option value="Feedback">Feedback</option>
+              <option value="" disabled>
+                -- Select a subject --
+              </option>
+              <option value="Email For Collaboration">Collaboration</option>
+              <option value="Email For UI/UX Feedback">UI/UX Feedback</option>
+              <option value="Email For Other">Other</option>
             </select>
           </div>
 
@@ -155,7 +167,12 @@ const ContactForm = () => {
           </div>
 
           <div className="flex justify-start">
-            <PrimaryBtn type="submit" className="bg-black hover:bg-white text-white hover:text-black dark:hover:text-darkprimary dark:hover:bg-transparent  transition-all duration-300">Submit</PrimaryBtn>
+            <PrimaryBtn
+              type="submit"
+              className="bg-black hover:bg-white text-white hover:text-black dark:hover:text-darkprimary dark:hover:bg-transparent  transition-all duration-300"
+            >
+              Submit
+            </PrimaryBtn>
           </div>
         </form>
       </div>

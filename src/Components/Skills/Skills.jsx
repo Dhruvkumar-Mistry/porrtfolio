@@ -41,7 +41,7 @@ const CodingSkillScale = [
 
 const Skills = () => {
   return (
-    <section id="skill" className="container py-12 md:py-24 space-y-20">
+    <section id="skill" className="container py-12 md:py-24 lg:space-y-16 space-y-8">
       {/* Skill Heading */}
       <div className="flex flex-col justify-center items-center space-y-6">
         <HeadLine>Skill</HeadLine>

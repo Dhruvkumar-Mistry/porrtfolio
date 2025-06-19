@@ -48,7 +48,7 @@ const ServicesData = [
 
 const Services = () => {
   return (
-    <section id="services" className="container py-12 md:py-24 space-y-16">
+    <section id="services" className="container py-12 md:py-24 lg:space-y-12 space-y-4">
       <section className="flex flex-col items-center justify-center space-y-6 px-4 py-10">
         <HeadLine>Services</HeadLine>
         <p className="text-lg font-medium text-secondary dark:text-darksecondary text-center max-w-2xl">

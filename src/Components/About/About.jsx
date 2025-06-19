@@ -8,7 +8,7 @@ import { BiSolidDownArrowCircle } from "react-icons/bi";
 const About = () => {
   return (
     <section id="about" className="container py-12 md:py-24">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-16 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 ">
         <div className="flex justify-center items-center relative">
           <img src={Person} alt="Person" className="flex  lg:h-[625px]" />
           {/* <div className="h-[150px] w-full absolute -bottom-1 bg-gradient-to-t from-white via-white dark:bg-gradient-to-t dark:from-[#0E0D0F] dark:via-[#0E0D0F] dark:to-transparent dark:bg-transparent"></div> */}

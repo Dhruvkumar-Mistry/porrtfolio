@@ -40,7 +40,7 @@ const ProjectsData = [
 
 const Projects = () => {
   return (
-    <section id="project" className="container py-12 md:py-24 space-y-20">
+    <section id="project" className="container py-12 md:py-24 space-y-6 lg:space-y-16">
       <div className="flex flex-col justify-center items-center space-y-6">
         <HeadLine>Projects</HeadLine>
         <p className="text-lg font-medium text-secondary dark:text-darksecondary text-center max-w-xl">
@@ -51,7 +51,7 @@ const Projects = () => {
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:gap-12">
           {ProjectsData.map((item) => (
-            <div key={item.id} className="space-y-4 group relative p-4 ">
+            <div key={item.id} className="space-y-2 lg:space-y-3 group relative p-3 lg:p-0 ">
               <a href={item.Link} target="_blank" rel="noopener noreferrer">
                 <div className="relative">
                   <img
@@ -69,7 +69,6 @@ const Projects = () => {
                 {item.title}
               </h1>
               <hr className="border-transparent group-hover:border-black dark:group-hover:border-white w-0 group-hover:w-72 duration-500 ease-in-out" />
-
               <p className=" font-medium text-[#AEA8A8]">{item.desc}</p>
             </div>
           ))}
