@@ -1,8 +1,8 @@
 import React from "react";
-import Person from "../../assets/Person.webp";
+import Person from "../../assets/DhruvKumar.jpg";
 import HeadLine from "../../Share/HeadLine/HeadLine";
 import PrimaryBtn from "../../Share/PrimaryBtn/PrimaryBtn";
-import Resume from "../../../public/DhruvCV.pdf";
+import Resume from "/DhruvMistryCV.pdf";
 import { BiSolidDownArrowCircle } from "react-icons/bi";
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-16 ">
         <div className="flex justify-center items-center relative">
           <img src={Person} alt="Person" className="flex  lg:h-[625px]" />
-          <div className="h-[150px] w-full absolute -bottom-1 bg-gradient-to-t from-white via-white dark:bg-gradient-to-t dark:from-[#0E0D0F] dark:via-[#0E0D0F] dark:to-transparent dark:bg-transparent"></div>
+          {/* <div className="h-[150px] w-full absolute -bottom-1 bg-gradient-to-t from-white via-white dark:bg-gradient-to-t dark:from-[#0E0D0F] dark:via-[#0E0D0F] dark:to-transparent dark:bg-transparent"></div> */}
         </div>
         <div className="flex flex-col items-center sm:items-start text-center sm:text-left space-y-6 lg:space-y-8 justify-end">
           <HeadLine className="w-40">About me</HeadLine>
