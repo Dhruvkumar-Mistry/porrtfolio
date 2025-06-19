@@ -1,8 +1,8 @@
 import React from "react";
 import HeadLine from "../../Share/HeadLine/HeadLine";
-import Pro1 from "../../assets/Pro1.Webp";
-import Pro2 from "../../assets/Pro2.Webp";
-import Pro3 from "../../assets/Pro3.Webp";
+import Pro1 from "../../assets/Pro1.webp";
+import Pro2 from "../../assets/Pro2.webp";
+import Pro3 from "../../assets/Pro3.webp";
 import Pro4 from "../../assets/Pro4.Webp";
 import { VscZoomIn } from "react-icons/vsc";
 import { Link } from "react-scroll";
