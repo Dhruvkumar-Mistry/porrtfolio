@@ -12,7 +12,7 @@ import {
 import { TypeAnimation } from "react-type-animation";
 import { Github, Linkedin } from "./BrandIcons";
 import Resume from "../assets/Dhruv_Mistry_ReactDev.pdf";
-import profileImg from "../assets/dhruv.jpg";
+import profileImg from "../assets/Dhruv.jpg";
 
 export default function Hero() {
   const containerVariants = {
