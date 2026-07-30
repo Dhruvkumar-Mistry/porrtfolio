@@ -21,7 +21,7 @@ export default function Footer() {
 ];
 
   return (
-    <footer className="relative bg-[#005CC8] overflow-hidden">
+    <footer className="relative bg-[#29878A] overflow-hidden">
 
       {/* Top Border */}
       <div className="h-[2px] bg-white/10"></div>

@@ -380,7 +380,7 @@ export default function About() {
       justify-center
       gap-2
       bg-primary
-      hover:bg-primary-dark
+      hover:bg-teal-800
       text-white
       px-5
       py-3
@@ -404,7 +404,7 @@ export default function About() {
       justify-center
       gap-2
       bg-white
-      hover:bg-primary-dark
+      hover:bg-teal-800
       hover:text-white
       text-primary
       border

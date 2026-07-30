@@ -2,7 +2,7 @@
 
 @theme {
   --color-primary-light: #e6f0ff;
-  --color-primary: #0b5cd4;
+  --color-primary: #1B8C8F;
   --color-primary-dark: #004bb5;
 
   --color-dark: #0f172a;
@@ -40,11 +40,11 @@
   background: #f4f8ff;
 }
 ::-webkit-scrollbar-thumb {
-  background: #0b5cd4;
+  background: #1B8C8F;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #004bb5;
+  background: #33C38A;
 }
 
 html,
@@ -77,7 +77,7 @@ body {
 }
 
 .bg-gradient-premium {
-  background: linear-gradient(135deg, #0b5cd4 0%, #004bb5 100%);
+  background: linear-gradient(135deg, #367779 0%, #1B8286 100%);
 }
 
 .bg-gradient-light {
@@ -221,7 +221,7 @@ body {
 .loader-small-text {
   display: inline-block;
 
-    color:#2563eb;
+    color:#1B8C8F;
 
   font-size: 0.9rem;
 
@@ -250,7 +250,8 @@ body {
 
   line-height: 1.05;
 
-  color: #0452c1;
+  color: #1B8C8F;
+
 
   opacity: 0;
 
@@ -357,7 +358,7 @@ font-weight: 500;
 
   border-radius: 999px;
 
-  background: linear-gradient(90deg, #2563eb, #3b82f6, #60a5fa);
+  background: linear-gradient(90deg, #1B8C8F, #1B8C8C);
 
   animation: loading 1.7s linear infinite;
 }

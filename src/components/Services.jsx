@@ -118,7 +118,7 @@ export default function Services() {
 
             <a
               href="#contact"
-              className="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-8 py-4 rounded-xl font-bold shadow-premium transition-all duration-300 hover:-translate-y-1"
+              className="inline-flex items-center gap-2 bg-primary hover:bg-teal-800 text-white px-8 py-4 rounded-xl font-bold shadow-premium transition-all duration-300 hover:-translate-y-1"
             >
               Get In Touch
             </a>

@@ -95,7 +95,7 @@ export default function Navbar() {
             <div className="hidden lg:block">
               <a
                 href="#contact"
-                className="inline-flex items-center space-x-1.5 bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-premium hover:shadow-premium-hover transition-all duration-300 hover:-translate-y-0.5"
+                className="inline-flex items-center space-x-1.5 bg-primary hover:bg-teal-800 text-white px-5 py-2.5 rounded-xl text-sm font-semibold shadow-premium hover:shadow-premium-hover transition-all duration-300 hover:-translate-y-0.5"
               >
                 <span>Hire Me</span>
                 <ArrowUpRight className="h-4 w-4" />
@@ -148,7 +148,7 @@ export default function Navbar() {
                 <a
                   href="#contact"
                   onClick={() => setIsOpen(false)}
-                  className="w-full flex items-center justify-center space-x-1.5 bg-primary hover:bg-primary-dark text-white py-3 rounded-xl font-semibold shadow-premium transition-all duration-300"
+                  className="w-full flex items-center justify-center space-x-1.5 bg-primary hover:bg-teal-800 text-white py-3 rounded-xl font-semibold shadow-premium transition-all duration-300"
                 >
                   <span>Hire Me</span>
                   <ArrowUpRight className="h-4 w-4" />

@@ -41,7 +41,7 @@ const Loader = () => {
 
             <h1 className="loader-title">
               Dhruv
-              <span> Mistry</span>
+               Mistry
             </h1>
 
             <p className="loader-desc">

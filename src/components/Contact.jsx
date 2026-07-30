@@ -223,7 +223,7 @@ ${formData.message}`
                 <button
                   type="submit"
                   disabled={loading}
-                  className="w-full inline-flex items-center justify-center space-x-2 bg-primary hover:bg-primary-dark text-white py-3.5 rounded-xl font-bold shadow-premium transition-all duration-300 disabled:opacity-50"
+                  className="w-full inline-flex items-center justify-center space-x-2 bg-primary hover:bg-teal-800 text-white py-3.5 rounded-xl font-bold shadow-premium transition-all duration-300 disabled:opacity-50"
                 >
                   {loading ? (
                     <span className="inline-block w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />

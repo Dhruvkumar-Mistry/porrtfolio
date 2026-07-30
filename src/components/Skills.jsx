@@ -122,13 +122,13 @@ export default function Skills() {
                   lg:p-8
                   shadow-[0_10px_40px_rgba(0,0,0,0.06)]
                   hover:shadow-[0_20px_60px_rgba(37,99,235,0.15)]
-                  hover:border-blue-300
+                  hover:border-teal-300
                   transition-all
                   duration-500
                 "
               >
                 {/* Top Accent Line */}
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-blue-600 via-blue-400 to-blue-600" />
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-teal-600 via-teal-400 to-teal-600" />
 
                 {/* Header */}
                 <div className="flex items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
@@ -146,8 +146,8 @@ export default function Skills() {
                       rounded-xl
                       sm:rounded-2xl
                       bg-gradient-to-br
-                      from-blue-100
-                      to-blue-50
+                      from-teal-100
+                      to-teal-50
                       flex
                       items-center
                       justify-center
@@ -155,10 +155,10 @@ export default function Skills() {
                       shrink-0
                     "
                   >
-                    <Icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-blue-600" />
+                    <Icon className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-teal-600" />
                   </motion.div>
 
-                  <h3 className="skill-card-title text-lg sm:text-xl lg:text-2xl font-bold text-slate-900 group-hover:text-blue-600 transition-colors duration-300">
+                  <h3 className="skill-card-title text-lg sm:text-xl lg:text-2xl font-bold text-slate-900 group-hover:text-teal-600 transition-colors duration-300">
                     {category.title}
                   </h3>
                 </div>
@@ -172,7 +172,7 @@ export default function Skills() {
                           {skill.name}
                         </span>
 
-                        <span className="font-bold text-sm sm:text-base text-blue-600 shrink-0">
+                        <span className="font-bold text-sm sm:text-base text-teal-700 shrink-0">
                           {skill.value}%
                         </span>
                       </div>
@@ -194,9 +194,9 @@ export default function Skills() {
                             h-full
                             rounded-full
                             bg-gradient-to-r
-                            from-blue-600
-                            via-blue-500
-                            to-blue-400
+                            from-teal-700
+                            via-teal-600
+                            to-teal-500
                             shadow-[0_0_20px_rgba(37,99,235,0.4)]
                           "
                         />

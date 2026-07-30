@@ -106,7 +106,7 @@ overflow-hidden
               <motion.div variants={itemVariants} className="space-y-3">
                 <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-5xl leading-tight break-words font-extrabold tracking-tight text-dark">
                   Creative <br />
-                  <span className="text-gradient mt-0.5 sm:mt-1 lg:mt-3">
+                  <span className="text-teal-700 mt-0.5 sm:mt-1 lg:mt-3">
                     <TypeAnimation
                       sequence={[
                         "Frontend Developer",
@@ -168,7 +168,7 @@ overflow-hidden
               >
                 <a
                   href="#projects"
-                  className="inline-flex items-center space-x-2 bg-primary hover:bg-primary-dark text-white px-7 py-3.5 rounded-xl font-bold shadow-premium hover:shadow-premium-hover transition-all duration-300 hover:-translate-y-0.5"
+                  className="inline-flex items-center space-x-2 bg-primary hover:bg-teal-800 text-white px-7 py-3.5 rounded-xl font-bold shadow-premium hover:shadow-premium-hover transition-all duration-300 hover:-translate-y-0.5"
                 >
                   <span className="font-bold">View Projects</span>
                   <ArrowRight className="h-4 w-4" />
