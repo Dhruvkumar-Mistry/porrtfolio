@@ -116,7 +116,7 @@ export default function About() {
     <div className="w-full h-full rounded-full overflow-hidden bg-white border-4 border-white">
       <img
         src={profileImg}
-        alt="Ravi Narigara Circular Profile"
+        alt="Dhruv Mistry Circular Profile"
         className="w-full h-full object-cover object-top transition-transform duration-500 ease-in-out hover:scale-105"
       />
     </div>

@@ -249,7 +249,7 @@ overflow-hidden
                 <div className="absolute inset-0 rounded-3xl bg-light-card border border-primary/10 overflow-hidden shadow-premium">
                   <img
                     src={profileImg}
-                    alt="Ravi Narigara"
+                    alt="Dhruv Mistry"
                     className="w-full h-full object-cover object-center scale-102 hover:scale-105 transition-transform duration-500 ease-in-out"
                   />
                 </div>
